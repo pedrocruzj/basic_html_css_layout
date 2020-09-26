@@ -1,0 +1,23 @@
+:root {
+    --lay-color: rgb(197, 197, 197);
+}
+.layout {
+    background: rgb(243, 242, 242);
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.layout__menu {
+    height: 100px;
+    min-height: 100px;
+    background: var(--lay-color);
+}
+.layout__body{
+    flex-grow: 1;
+}
+.layout__footer {
+    height: 40px;
+    min-height: 40px;
+    background: var(--lay-color);
+}
